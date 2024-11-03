@@ -1,0 +1,125 @@
+#include <iostream>
+
+int main() {
+
+std::cout << "==============================\n";
+std::cout << "The 100th Regression of the Max Level Player book 1\n";
+std::cout << "==============================\n";
+std::cout << "\n";
+std::cout << "IT'S FINALLY TIME!\n";
+std::cout << "PLEASE COUNT DOWN FROM FIVE SECONDS TOGETHER!\n\n";
+
+std::cout << "5\n";
+std::cout << "4\n";
+std::cout << "F*%K.\n";
+std::cout << "I CAME BACK.\n";
+std::cout << "TO THE TIME BEFORE I GOT SWEPT AWAY IN THIS DAMNED GAME.\n\n";
+std::cout << "3\n";
+std::cout << "If I could, 2\n";
+std::cout << "I should stop time\n";
+std::cout << "1\n";
+std::cout << "YEAH THIS IS THE LAST TIME ANYWAY,\n\n";
+std::cout << "HAPPY NEW YEARS EVERYONE\n";
+std::cout << "Unknown voice: Humans are Interesting.\n\n";
+std::cout << "Unknow voice: To CELEBRATE THE NEW YEAR WHEN THEY DON'T KNOW WHAT SITUATION THEY ARE IN.\n\n";
+std::cout << "Angel: SEEING YOU ALL FALL FOR IT WHEN YOU DON'T KNOW ANYTHING~\n\n";
+std::cout << "Angel: TO US, YOU SEEN LIKE MONKEY IN A CAGE\n";
+std::cout << "PFFT.\n\n";
+
+char choice1;
+
+for (int i = 0; i < 3 && choice1 != 'A' && choice1 != 'B'; i++) {
+
+  std::cout << "Enter A Berate the Angel\n";
+  std::cout << "Enter B Stay quiet and Watch\n";
+  std::cin >> choice1;
+
+}
+switch(choice1) {
+
+  case 'A':
+  std::cout << "Berating the Angel she looks towards Ryumin.\n";
+  std::cout << "Talking to me like Trash you will die.\n";
+  std::cout << "Ryumin head exploded.\n";
+  std::cout << "The End!\n";
+  break;
+
+  case 'B':
+  std::cout << "Ryumin continued to watch quietly.\n";
+  std::cout << "As the man berated the angel saying. HEY WHO ARE YOU?! ARE YOU COSPLAYING AS AN ANGEL? WHAT THE HELL ARE YOU SAYING ?!\n\n";
+  std::cout << " the Unknown man said FOR A FLYING TISSUE YOU'RE BEING A B!*CH\n";
+  std::cout << "Ryumin in his mind said WHAT A SHAME.\n\n";
+  std::cout << "the Angel eyes turn red saying HOW ANNOYING to the Unknown man before his head EXPLODED.\n\n";
+  break;
+
+  default:
+  std::cout << " You entered an invalid choice\n";
+  return 0;
+}
+
+std::cout << "boy covered in blood next to the man without a head\n";
+std::cout << "UGH\n";
+std::cout << "EUAH\n";
+std::cout <<  "EUAAAAAAAH\n\n";
+std::cout << "Angel: FOR A LOWLY HUMAN.\n";
+std::cout << "Angel: HOW DARE YOU SPEAK INFORMALLY TO MY MIGHTY SELF\n";
+std::cout << "Angel: YOU HUMANS DON'T HAVE ANY RIGHT TO ASK ME QUESTIONS\n";
+std::cout << "Angel: DON'T ARROGANTLY ACT UP\n";
+std::cout << "Angel: IF YOU DON'T WANT YOUR HEAD TO EXPLODE LIKE THAT HUMAN\n";
+std::cout << "Angel: YOU UNDERSTAND WHAT'S GOING ON, RIGHT?\n";
+std::cout << "Angel: WHAT WOULD YOU INFERIOR HUMANS KNOW?\n";
+std::cout << "Angel: ALRIGHT, WE WILL BE PLAYING A GAME FROM NOW ON\n\n";
+std::cout << "YOUR SOULS WILL BE TRANPORTED TO A NEW DIMENSION TO PARTICIPATE IN A GAME.\n"; 
+std::cout << "ONLY HUMANS AROUND THE WORLD AGED BETWEEN FIFTEEN AND TWENTY-NINE WILL PARTICIPATE.\n\n";
+
+std::string name = "Black Scythe";
+
+std::cout << "Ryumin pick his character name\n";
+std::cout << "user name: " << name << "\n";
+std::cout << name << ": AND WITH THAT, IT'S MY 100TH TIME.\n";
+std::cout << "Since I have had the same appearance since the twelfth time it really feels like my own body now.\n\n";
+std::cout << name << ": IN THE OTHERWORLD, THE STRONG PREY ON THE WEAK.\n";
+std::cout << name << ": IF YOUR APPEARANCE IS TOO NOTICEABLE, IT'S EASIER TO BECOME A TARGET.\n";
+std::cout << name << ": IF YOU DIE IN THE OTHERWORLD, YOU DIE IN THE REAL WORLD.\n";
+std::cout << "person: is that a Goblin?\n";
+std::cout << "another person: it really feels like we're in a game\n\n";
+char choice2;
+
+for (int i = 0; i < 3 && choice2 != 'A' && choice2 != 'B'; i++) {
+
+  std::cout << "Enter A walk forward to Attack the Goblin.\n";
+  std::cout << "Enter B stand still while the Goblin runs to Attack you and others with it's knife.\n";
+  std::cin >> choice2;
+
+}
+if (choice2 != 'A' && choice2 != 'B') {
+
+  std::cout << "You've Entered a Invaild choice.\n";
+return 0;
+
+}
+else if (choice2 == 'B') {
+
+std::cout << "YOU AND OTHERS WERE KILLED\n";
+std::cout << "TRY AGAIN!!\n";
+
+}
+else if(choice2 == 'A') {
+
+  std::cout << name << ": kicked the Goblin to the ground acquire it's knife.\n";
+
+}
+else {
+  }
+  std::cout << name << ": That calls for a bit of a performance.\n\n";
+  
+  int goblin = 1;
+
+while (goblin <= 1) {
+std::cout << name << ": attack one of the goblins killing it instantly.\n";
+std::cout << name << ": attack other goblin slicing it in half.\n"; 
+goblin++;
+}
+
+}
+
