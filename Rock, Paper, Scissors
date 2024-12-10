@@ -1,0 +1,73 @@
+#include <iostream>
+#include <stdlib.h>
+
+
+
+// Rock, Paper, Scissors
+int main() {
+
+// score system
+int player_score = 0;
+int computer_score = 0;
+char play_again = 'y';
+
+srand(time(NULL)); // srand should be first before the main code.
+
+int computer = rand() % 3 + 1;
+int user = 0;
+
+do { // Game logic here
+std::cout << "==================================\n";
+std::cout << "rock, paper, scissors!\n";
+std::cout << "==================================\n";
+
+std::cout << "1. ✊ Rock\n";
+std::cout << "2. 🖐️ Paper\n";
+std::cout << "3. ✌️ Scissors\n";
+
+std::cout << "shoot!";
+
+std::cin >> user;
+
+int rock = 1;
+int paper = 2;
+int scissors = 3;
+
+if (computer == rock && user == paper) {
+ std::cout << "player wins\n";
+    player_score++;
+}
+else if (computer == paper && user == rock) {
+  std::cout << "computer wins\n";
+    computer_score++;
+  }
+else if (computer == paper && user == scissors) {
+  std::cout << "player wins\n";
+    player_score++;
+}
+else if (user == paper && computer == scissors) {
+  std::cout << "computer wins\n";
+    computer_score++;
+  }
+else if (user == scissors && computer == rock) {
+  std::cout << "computer wins\n";
+    computer_score++;
+}
+else if (user == scissors && computer == rock) {
+  std::cout << "player wins\n";
+  player_score++;
+}
+else {
+  std::cout << "It's a tie!\n";
+}
+
+std::cout << "Player Score: " << player_score << "\n";
+std::cout << "Computer Score: " << computer_score << "\n";
+
+  //Ask if the player wants to play again
+  std::cout << "Do you want to play again? (y/n): ";
+  std::cin >> play_again;
+
+} while (play_again == 'y' || play_again == 'Y');
+
+}
